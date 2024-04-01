@@ -1,6 +1,60 @@
 .container {
-    max-width: 768px;
-    margin: 0 auto;
-    border: 3px solid black;
-    border-radius: 16px;
+  max-width: 768px;
+  margin: 0 auto;
+  border: 3px solid black;
+  border-radius: 16px;
+}
+
+.userTopBox {
+  padding: 24px 0;
+}
+
+.avatar {
+  width: 250px;
+  background-color: rgb(46, 44, 44);
+  border-radius: 150px;
+  margin: 0 auto;
+}
+
+.name {
+  font-size: 52px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.tag,
+.location {
+  font-size: 40px;
+  font-weight: 500;
+  color: grey;
+}
+
+.socialBox {
+  display: flex;
+  justify-content: space-around;
+  border-top: 3px solid grey;
+  background: rgb(197, 193, 193);
+  border-bottom-left-radius: 14px;
+  border-bottom-right-radius: 14px;
+}
+
+.socialItemBox {
+  padding: 30px 0;
+  width: calc((100%) / 3);
+  border-left: 3px solid grey;
+}
+
+.socialItemBox:first-of-type {
+  border-left: none;
+}
+
+.socialTop {
+  display: block;
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.socialBottom {
+  font-size: 36px;
+  font-weight: 600;
 }

@@ -1,33 +1,27 @@
-import css from '../Profile/Profile.module.css'
+import css from '../Profile/Profile.module.css';
 
-const Profile = ({
-  name,
-  tag,
-  location,
-  image,
-  stats: { followers, views, likes },
-}) => {
+const Profile = ({ name, tag, location, image, stats: { followers, views, likes } }) => {
   return (
     <div className={css.container}>
-      <div>
-        <img src={image} alt="User avatar" />
-        <p>{name}</p>
-        <p>@{tag}</p>
-        <p>{location}</p>
+      <div className={css.userTopBox}>
+        <img className={css.avatar} src={image} alt="User avatar" />
+        <p className={css.name}>{name}</p>
+        <p className={css.tag}>@{tag}</p>
+        <p className={css.location}>{location}</p>
       </div>
 
-      <ul>
-        <li>
-          <span>Followers</span>
-          <span>{followers}</span>
+      <ul className={css.socialBox}>
+        <li className={css.socialItemBox}>
+          <span className={css.socialTop}>Followers</span>
+          <span className={css.socialBottom}>{followers}</span>
         </li>
-        <li>
-          <span>Views</span>
-          <span>{views}</span>
+        <li className={css.socialItemBox}>
+          <span className={css.socialTop}>Views</span>
+          <span className={css.socialBottom}>{views}</span>
         </li>
-        <li>
-          <span>Likes</span>
-          <span>{likes}</span>
+        <li className={css.socialItemBox}>
+          <span className={css.socialTop}>Likes</span>
+          <span className={css.socialBottom}>{likes}</span>
         </li>
       </ul>
     </div>

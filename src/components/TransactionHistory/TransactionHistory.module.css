@@ -1,0 +1,15 @@
+.tableBox {
+  width: 768px;
+  border-collapse: collapse;
+}
+
+.tableHeadItem {
+  font-size: 18px;
+  border: 2px solid black;
+  color: whitesmoke;
+  background: rgb(46, 45, 45);
+}
+
+.tableRow:nth-child(even) {
+  background: rgb(209, 205, 205);
+}

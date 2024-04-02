@@ -1,0 +1,6 @@
+.tableBodyItem {
+  line-height: 2;
+  font-size: 18px;
+  text-transform: capitalize;
+  border: 2px solid black;
+}

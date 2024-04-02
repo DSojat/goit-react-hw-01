@@ -5,6 +5,12 @@
   text-align: center;
 }
 
+.container {
+  max-width: 768px;
+  margin: 0 auto;
+  margin-bottom: 32px;
+}
+
 body {
   font-family: sans-serif;
   line-height: 1.5;
@@ -30,7 +36,6 @@ ol {
   margin: 0;
   padding: 0;
   list-style: none;
-  
 }
 
 img {

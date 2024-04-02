@@ -1,3 +1,18 @@
+.friendListItemBox {
+  width: 140px;
+  border: 2px solid black;
+  border-radius: 4px;
+  padding: 10px 0;
+}
+
+.friendListImage {
+  margin: 0 auto;
+}
+
+.friendName {
+  font-size: 28px;
+}
+
 .greenStatus {
   color: green;
 }

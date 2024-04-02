@@ -2,7 +2,7 @@ import css from '../Profile/Profile.module.css';
 
 const Profile = ({ name, tag, location, image, stats: { followers, views, likes } }) => {
   return (
-    <div className={css.container}>
+    <div className={css.profileWrapper + ' ' + 'container'}>
       <div className={css.userTopBox}>
         <img className={css.avatar} src={image} alt="User avatar" />
         <p className={css.name}>{name}</p>
